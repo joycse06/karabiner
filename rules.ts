@@ -59,6 +59,15 @@ const rules: KarabinerRules[] = [
     spacebar: open(
       "raycast://extensions/stellate/mxstbr-commands/create-notion-todo"
     ),
+    semicolon: {
+        description: "iTerm: Toggle",
+        to: [
+          {
+            key_code: "semicolon",
+            modifiers: ["right_control"],
+          },
+        ],
+      },
     // b = "B"rowse
     b: {
       t: open("https://twitter.com"),
