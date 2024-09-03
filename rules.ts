@@ -72,27 +72,26 @@ const rules: KarabinerRules[] = [
     // o = "Open" applications
     o: {
       1: app("1Password"),
-      g: app("Google Chrome"),
-      c: app("Notion Calendar"),
-      v: app("Zed"),
+      c: app("Google Chrome"),
+      // c: app("Notion Calendar"),
+      g: app("Goland"),
+      v: app("Visual Studio Code"),
       d: app("Discord"),
       s: app("Slack"),
-      e: app("Superhuman"),
-      n: app("Notion"),
-      t: app("Terminal"),
+      // e: app("Superhuman"),
+      // Note Taking Obsidian
+      n: app("Obsidian"),
+      t: app("iTerm"),
       // Open todo list managed via *H*ypersonic
       h: open(
         "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
       ),
-      z: app("zoom.us"),
-      // "M"arkdown (Reflect.app)
-      m: app("Reflect"),
-      r: app("Reflect"),
       f: app("Finder"),
       // "i"Message
       i: app("Texts"),
       p: app("Spotify"),
       a: app("iA Presenter"),
+
       // "W"hatsApp has been replaced by Texts
       w: open("Texts"),
       l: open(
@@ -242,9 +241,6 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      e: open(
-        `raycast://extensions/thomas/elgato-key-light/toggle?launchType=background`
-      ),
       // "D"o not disturb toggle
       d: open(
         `raycast://extensions/yakitrak/do-not-disturb/toggle?launchType=background`
