@@ -64,7 +64,16 @@ const rules: KarabinerRules[] = [
         to: [
           {
             key_code: "semicolon",
-            modifiers: ["right_control"],
+            modifiers: ["right_ctrl"],
+          },
+        ],
+      },
+      u: {
+        description: "Terminal deleted up to start of line",
+        to: [
+          {
+            key_code: "u",
+            modifiers: ["left_control"],
           },
         ],
       },
@@ -357,7 +366,7 @@ const rules: KarabinerRules[] = [
           {
             type: "frontmost_application_if",
             file_paths: [
-              "^/Users/mxstbr/Library/Application Support/minecraft/runtime/java-runtime-gamma/mac-os-arm64/java-runtime-gamma/jre.bundle/Contents/Home/bin/java$",
+              "^minecraft",
             ],
           },
         ],
