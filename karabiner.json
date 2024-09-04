@@ -133,7 +133,7 @@
                   {
                     "key_code": "semicolon",
                     "modifiers": [
-                      "right_ctrl"
+                      "right_control"
                     ]
                   }
                 ],
@@ -2345,13 +2345,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/thomas/color-picker/pick-color"
+                    "shell_command": "open raycast://extensions/abielzulio/chatgpt/ask"
                   }
                 ],
-                "description": "Open raycast://extensions/thomas/color-picker/pick-color",
+                "description": "Open raycast://extensions/abielzulio/chatgpt/ask",
                 "type": "basic",
                 "from": {
-                  "key_code": "c",
+                  "key_code": "g",
                   "modifiers": {
                     "optional": [
                       "any"

@@ -64,19 +64,19 @@ const rules: KarabinerRules[] = [
         to: [
           {
             key_code: "semicolon",
-            modifiers: ["right_ctrl"],
+            modifiers: ["right_control"],
           },
         ],
-      },
-      u: {
-        description: "Terminal deleted up to start of line",
-        to: [
-          {
-            key_code: "u",
-            modifiers: ["left_control"],
-          },
-        ],
-      },
+    },
+    u: {
+      description: "Terminal deleted up to start of line",
+      to: [
+        {
+          key_code: "u",
+          modifiers: ["left_control"],
+        },
+      ],
+    },
     // b = "B"rowse
     b: {
       t: open("https://twitter.com"),
@@ -327,7 +327,8 @@ const rules: KarabinerRules[] = [
 
     // r = "Raycast"
     r: {
-      c: open("raycast://extensions/thomas/color-picker/pick-color"),
+      g: open("raycast://extensions/abielzulio/chatgpt/ask"),
+      // c: open("raycast://extensions/thomas/color-picker/pick-color"),
       n: open("raycast://script-commands/dismiss-notifications"),
       l: open(
         "raycast://extensions/stellate/mxstbr-commands/create-mxs-is-shortlink"
